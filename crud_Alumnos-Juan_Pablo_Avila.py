@@ -94,6 +94,7 @@ def promediar_edades():
     return sum(x[1] for x in lista_estudiantes)/len(lista_estudiantes)
 
 def validar_lista_estudiantes():
+    """función que nos permite determinar si la lista de estudiantes está vacía"""
     if len(lista_estudiantes)==0:
         print ("La lista de estudiantes está vacía.\n")
         return False
